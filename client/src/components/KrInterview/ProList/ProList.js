@@ -89,15 +89,6 @@ const ProList = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div>
-          <FaExclamation />
-          <p className="d-inline" style={{ color: 'black' }}>
-            인터뷰온의 영어면접 전문가들은 영어권 국가에서 5년 이상 근무 경험이
-            있는 원어민 수준의 실무경력자들만으로 구성됩니다.
-          </p>
-        </div>
-      </div>
       <div className="container mt-5">
         <div className="row slide-4 category-m no-arrow">{renderPros()}</div>
       </div>
