@@ -48,7 +48,9 @@ class Subscribe extends Component {
           <div className="col">
             <div className="title1">
               <h4>Subscribe</h4>
-              <h2 className="title-inner1">이메일 뉴스레터에 가입하세요!</h2>
+              <h2 className="title-inner1">
+                뉴스레터에 가입하면 각종 취업전략을 보내드립니다!
+              </h2>
               <hr />
             </div>
           </div>
@@ -68,7 +70,7 @@ class Subscribe extends Component {
                       <div className="form-group">
                         <input
                           type="text"
-                          name="email"
+                          name="subscribe-email"
                           className="form-control subscribe-input"
                           id="exampleFormControlInput"
                           placeholder="이메일주소를 입력하세요."

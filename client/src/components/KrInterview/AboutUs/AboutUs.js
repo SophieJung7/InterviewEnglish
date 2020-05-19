@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Pain from '../../../assets/photos/pain.jpg';
 
 const AboutUs = () => {
@@ -113,8 +114,8 @@ const AboutUs = () => {
                 검증된, 최적화된 취업준비를 하세요!
               </p>
               <div className="d-flex justify-content-center">
-                <a
-                  href="#products"
+                <Link
+                  to="/consulting"
                   className="btn btn-solid mt-5"
                   style={{
                     fontSize: '1.2rem',
@@ -123,8 +124,8 @@ const AboutUs = () => {
                       'linear-gradient(50deg, #4df6c0 50%, transparent 50%)',
                   }}
                 >
-                  인터뷰온 서비스 살펴보기
-                </a>
+                  무료 취업컨설팅 신청하기
+                </Link>
               </div>
             </div>
           </div>

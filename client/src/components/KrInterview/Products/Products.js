@@ -26,9 +26,9 @@ const Products = () => {
                 있습니다. 취업전문가가 본인의 강점을 살려 이력서, 자소서를 수정
                 및 보완해드립니다.
               </p>
-              <a href="/pro/0#product">
-                <button className="btn btn-solid mt-5">가격 알아보기</button>
-              </a>
+              <Link to="/consulting">
+                <button className="btn btn-solid mt-5">무료체험 신청</button>
+              </Link>
             </div>
             <div className="col-lg-4 mb-5 mb-lg-0">
               <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
@@ -45,9 +45,9 @@ const Products = () => {
                 인터뷰온은 200건이 넘는 취업성공케이스들을 바탕으로 가장 빠르게
                 면접에 성공할 수 있는 면접속성과외를 구성했습니다.
               </p>
-              <a href="/pro/0#product">
-                <button className="btn btn-solid mt-5">가격 알아보기</button>
-              </a>
+              <Link to="/consulting">
+                <button className="btn btn-solid mt-5">무료체험 신청</button>
+              </Link>
             </div>
             <div className="col-lg-4">
               <div className="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4">
@@ -65,8 +65,8 @@ const Products = () => {
                 취업전문가입니다. 빠르고 쉽게 영어면접에 합격하는 방법을
                 알려드립니다.
               </p>
-              <Link to="/pro/0#product">
-                <button className="btn btn-solid mt-5">가격 알아보기</button>
+              <Link to="/consulting">
+                <button className="btn btn-solid mt-5">무료체험 신청</button>
               </Link>
             </div>
           </div>
