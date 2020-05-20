@@ -19,20 +19,20 @@ const Jumbotron2 = () => {
               첨삭하고 있습니다. 지금 신청하세요!
             </div>
           </div>
-          <div className="d-flex justify-content-center">
-            <Link
-              to="/consulting"
-              className="btn btn-solid mt-5"
-              style={{
-                fontSize: '1.2rem',
-                border: 'none',
-                backgroundImage:
-                  'linear-gradient(50deg, #4df6c0 50%, transparent 50%)',
-              }}
-            >
-              무료첨삭 신청하기
-            </Link>
-          </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <Link
+            to="/consulting"
+            className="btn btn-solid mt-5"
+            style={{
+              fontSize: '1.2rem',
+              border: 'none',
+              backgroundImage:
+                'linear-gradient(50deg, #4df6c0 50%, transparent 50%)',
+            }}
+          >
+            무료첨삭 신청하기
+          </Link>
         </div>
       </div>
     </header>
